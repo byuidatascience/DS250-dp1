@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -232,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#setup-git-and-github" id="toc-setup-git-and-github" class="nav-link active" data-scroll-target="#setup-git-and-github">Setup Git and Github</a></li>
+  <li><a href="#setup-git-and-github" id="toc-setup-git-and-github" class="nav-link active" data-scroll-target="#setup-git-and-github">Setup Git and GitHub</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/byuistats/DS250-Course/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -265,9 +265,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="setup-git-and-github" class="level3">
-<h3 class="anchored" data-anchor-id="setup-git-and-github">Setup Git and Github</h3>
+<h3 class="anchored" data-anchor-id="setup-git-and-github">Setup Git and GitHub</h3>
 <section id="github-will-be-used-for-publishing-all-projects" class="level5">
-<h5 class="anchored" data-anchor-id="github-will-be-used-for-publishing-all-projects">Github will be used for publishing all projects</h5>
+<h5 class="anchored" data-anchor-id="github-will-be-used-for-publishing-all-projects">GitHub will be used for publishing all projects</h5>
 <ol type="1">
 <li><p>Install <a href="https://git-scm.com/">git</a> on your computer</p>
 <ul>
@@ -281,37 +281,39 @@ Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by
 <li>Use an <a href="https://workplace.stackexchange.com/questions/83967/does-my-employer-care-about-my-github-username">appropriate username</a>. It will be the name of your public profile and website in Project 6.</li>
 </ul></li>
 <li><p><a href="https://desktop.github.com/">Install</a> GitHub Desktop</p></li>
-<li><p>Connect to our BYU-I organizations on Github (optional)</p>
+<li><p>Connect to our BYU-I organizations on GitHub (optional)</p>
 <ul>
 <li><a href="https://posit.byua.%20edu/connect/#/apps/ef78adcd-d72b-4e3f-ac45-3e5e662fbd73/access">BYU-I Data Science Society</a> <em>default organization</em></li>
 </ul></li>
-<li><p><strong>Git a Course Work Portfolio in Ghithub</strong></p>
+<li><p><strong>Git a Course Work Portfolio in GitHub</strong></p>
 <ol type="a">
-<li><strong>Use the Portfolio Template on your Githhub root directory</strong>
+<li><strong>Use the Portfolio Template in Data Science GitHub repo</strong>
 <ul>
-<li><strong>Navigate to the <a href="https://github.com/byuidatascience/course_work_portfolio">Course Work Portfolio</a> in GitHub.</strong></li>
-<li><strong>Click the Green Button <code>Use this template</code> and select <code>Create a new repository</code></strong></li>
-<li><strong>Select <code>byuids</code> as the <code>Owner</code>(you should have been added by your teacher if you dont see byuids ask them to add you)</strong></li>
-<li><strong>Name the repository as <code>your name</code></strong></li>
-<li><strong>Click the Green Button <code>Create repository</code></strong></li>
+<li><strong>Navigate to the <a href="https://github.com/byuidatascience/course_work_portfolio">Course Work Portfolio</a> in GitHub</strong></li>
+<li><strong>Click the Green Button <code>Use this template</code> and select <code>Create a new repository</code></strong><br>
+<img src="../Images/gh_template.png" class="img-fluid" width="150"></li>
+<li><strong>Select <code>byui-math-dept</code> as the <code>Owner</code> You should have been added to <code>byui-math-dept</code> by your teacher if you dont see it ask them to add you. This Org uses SSO with BYUI, if you dont have your BYUI email in your GitHub account you need to add it (account -&gt; settings -&gt; emails -&gt; add email address)</strong><br>
+<img src="../Images/gh_math_owner.png" class="img-fluid" width="500"></li>
+<li><strong>Name the repository as your GitHub <code>username</code> + <code>_</code> + <code>your first semester and year</code>all lowercase (see example in image above)</strong><br>
+</li>
+<li><strong>Select <code>Private</code> as the type of Repo, then click <code>Create Repository</code></strong><br>
+<img src="../Images/gh_private.png" class="img-fluid" width="500"></li>
 </ul></li>
-<li><strong>Create a new branch <code>gh-pages</code></strong>
+<li><strong>Modify Pages Settings for Build and deployment from <code>/(root)</code> to <code>/docs</code>:</strong>
 <ul>
-<li><strong>Click the <code>Branch: main</code> button then <code>view all branches</code></strong></li>
-<li><strong>Click the <code>New Branch</code> button</strong></li>
-<li><strong>Name the branch <code>gh-pages</code> and click the Green Button <code>Create new branch</code></strong></li>
-</ul></li>
-<li><strong>Modify Pages Settings for Build and deployment from <code>main</code> to <code>gh-pages</code>:</strong>
-<ul>
-<li><strong>Click the <code>Settings</code> tab</strong></li>
-<li><strong>Scroll down to the <code>Pages</code> section in the left hand menu</strong></li>
-<li><strong>Locate the Build and deployment section and change Branch from <code>main</code> to <code>gh-pages</code></strong></li>
+<li><strong>Click the <code>Settings</code> tab</strong><br>
+<img src="../Images/gh_settings.png" class="img-fluid" width="300"></li>
+<li><strong>Scroll down to the <code>Pages</code> section in the left hand menu</strong><br>
+<img src="../Images/gh_pages.png" class="img-fluid" width="500"></li>
+<li><strong>Locate the Build and deployment section and change Branch from <code>main</code> to <code>gh-pages</code></strong><br>
+<img src="../Images/gh_main_docs.png" class="img-fluid" width="500"></li>
 </ul></li>
 <li><strong>Clone the repository to your computer</strong>
 <ul>
-<li><strong>Click the <code>Code</code> tab</strong></li>
-<li><strong>Click the Green Button <code>Code</code> and select <code>Open with GitHub Desktop</code></strong></li>
-<li><strong>Click the Green Button <code>Open in Visual Studio Code</code></strong></li>
+<li><strong>Click the <code>&lt;&gt; Code</code> menu</strong></li>
+<li><strong>Click the Green Button <code>&lt;&gt; Code</code> and select <code>Open with GitHub Desktop</code></strong><br>
+<img src="../Images/gh_open_in_desktop.png" class="img-fluid" width="500"></li>
+<li><strong>Click the Button <code>Open in Visual Studio Code</code></strong> <img src="../Images/gh_open_in_vs_code.png" class="img-fluid" width="500"></li>
 </ul></li>
 <li><strong>Update the <code>_quarto.yml</code> file</strong>
 <ul>
@@ -321,21 +323,21 @@ Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by
 <li><strong>Change the page footer <code>href:</code> to your LinkedIn profile link</strong></li>
 <li><strong>Scroll to the bottom and change the theme <code>light:</code> and/or <code>dark:</code> to another theme (optional)</strong></li>
 </ul></li>
-<li><strong>Push the changes to GitHub via Github Desktop</strong>
+<li><strong>Push the changes to GitHub via GitHub Desktop</strong>
 <ul>
-<li><strong>Make sure your current repo in the top left is <code>username.github.io</code></strong></li>
-<li><strong>Type a commit message and click the Blue Button <code>Commit to main</code></strong></li>
-<li><strong>Click the Blue Button <code>Push origin</code></strong></li>
-</ul></li>
-<li><strong>Confirm the Github Actions are working</strong>
-<ul>
-<li><strong>Navigate to the repo in GitHub and click on the <code>Actions</code> tab</strong></li>
-<li><strong>Confirm the <code>Update _quarto.yml</code> is working by the yellow circle turning to a green check circle (Note: this can take 3-5min)</strong></li>
+<li><strong>Make sure you have the correct repo selected in the top left</strong><br>
+<img src="../Images/gh_current_repo2.png" class="img-fluid" width="300"></li>
+<li><strong>Type a commit message and click the Blue Button <code>Commit to main</code></strong><br>
+<img src="../Images/gh_commit_main.png" class="img-fluid" width="300"><br>
+</li>
+<li><strong>Click the Blue Button <code>Push origin</code></strong><br>
+<img src="../Images/gh_push_origin.png" class="img-fluid" width="500"></li>
 </ul></li>
 </ol></li>
-<li><p><strong>Git your Resume in your Portfolio (Learn Markdown)</strong></p>
+<li><p><strong>Git your Resume in your Portfolio (<a href="../Workbooks/wb1.html">Learn Markdown</a>)</strong></p>
 <ul>
-<li><strong>Edit the <code>resume.qmd</code> file in the Course Work Portfolio use markdown to to populate your resuem</strong></li>
+<li><strong>Edit the <code>resume.qmd</code> file in the Course Work Portfolio use markdown to to populate your resume</strong><br>
+</li>
 <li><strong>Push your results to GitHub with GitHub Desktop.</strong></li>
 </ul></li>
 </ol>
