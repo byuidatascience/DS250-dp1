@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2020-05-01">
+<meta name="dcterms.date" content="2020-04-30">
 
 <title>DS 250 - Quarto for Data Science</title>
 <style>
@@ -182,6 +182,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../Setup/python_lib.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Python Libraries</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../Setup/vs_code_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">VS Code</span></a>
   </div>
@@ -191,13 +198,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../Setup/quarto_setup.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Quarto</span></a>
-  </div>
-</li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Setup/python_lib.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Python Libraries</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -235,6 +235,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a></li>
   <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown">Markdown</a></li>
   <li><a href="#quarto-basics" id="toc-quarto-basics" class="nav-link" data-scroll-target="#quarto-basics">Quarto Basics</a></li>
+  <li><a href="#quarto-preview-tip" id="toc-quarto-preview-tip" class="nav-link" data-scroll-target="#quarto-preview-tip">Quarto Preview Tip</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/byuistats/DS250-Course/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -254,7 +255,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 1, 2020</p>
+      <p class="date">April 30, 2020</p>
     </div>
   </div>
   
@@ -274,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="markdown" class="level3">
 <h3 class="anchored" data-anchor-id="markdown">Markdown</h3>
-<p>Markdown is a plain text formatting syntax aimed at making writing more accessible. The philosophy behind Markdown is that plain text documents should be readable without tags making a mess, but there should still be ways to add text modifiers like lists, bold, italics, etc. It is an alternative to WYSIWYG (what you see is what you get) editors, which use rich text that later gets converted to proper HTML.[^1]</p>
+<p>Markdown is a plain text formatting syntax aimed at making writing more accessible. The philosophy behind Markdown is that plain text documents should be readable without tags making a mess, but there should still be ways to add text modifiers like lists, bold, italics, etc. It is an alternative to WYSIWYG (what you see is what you get) editors, which use rich text that later gets converted to proper HTML.</p>
 </section>
 <section id="quarto-basics" class="level3">
 <h3 class="anchored" data-anchor-id="quarto-basics">Quarto Basics</h3>
@@ -290,9 +291,13 @@ ul.task-list li input[type="checkbox"] {
 <li>If you still can not <code>Preview</code> your <code>.qmd</code> template file. Run <code>quarto check</code> in your <code>Terminal</code> section of VS Code and copy paste the ouput in a DM to your teacher or TA.</li>
 </ol>
 <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_9y6jv0tb&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&amp;wid=1_xyuzpp6t" width="608" height="402" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W01 - Preview Quarto File"></iframe>
-<section id="continue-to-install-python-libraries" class="level4">
-<h4 class="anchored" data-anchor-id="continue-to-install-python-libraries">Continue to Install Python Libraries</h4>
-<p><a href="../Setup/python_lib.html">Install Python Libraries</a></p>
+</section>
+<section id="quarto-preview-tip" class="level3">
+<h3 class="anchored" data-anchor-id="quarto-preview-tip">Quarto Preview Tip</h3>
+<p>When clicking on the Preview Icon <img src="../images/quarto_preview_icon.png" class="img-fluid" width="50"> in the top right of your <code>.qmd</code> file, some students experience the <code>preview</code> rendering their entire course website. If this is the case, you can fix it by only opening the <code>project.qmd</code> file you are working on in VS-Code instead of opening the entire course folder.</p>
+<section id="continue-to-git-and-github" class="level4">
+<h4 class="anchored" data-anchor-id="continue-to-git-and-github">Continue to Git and GitHub</h4>
+<p><a href="../Setup/git_github_setup.html">Install Git and GitHub</a></p>
 <!-- ```Python
 #%%
 import sys

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2020-05-01">
+<meta name="dcterms.date" content="2020-04-30">
 
 <title>DS 250 - AWS Virtual Machine Setup</title>
 <style>
@@ -182,6 +182,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../Setup/python_lib.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Python Libraries</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../Setup/vs_code_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">VS Code</span></a>
   </div>
@@ -191,13 +198,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../Setup/quarto_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quarto</span></a>
-  </div>
-</li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Setup/python_lib.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Python Libraries</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -236,6 +236,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#aws-virtual-machine-setup" id="toc-aws-virtual-machine-setup" class="nav-link" data-scroll-target="#aws-virtual-machine-setup">AWS Virtual Machine Setup</a></li>
   <li><a href="#setup-aws-documentation" id="toc-setup-aws-documentation" class="nav-link" data-scroll-target="#setup-aws-documentation">Setup AWS Documentation</a></li>
   <li><a href="#copy-paste-code-block" id="toc-copy-paste-code-block" class="nav-link" data-scroll-target="#copy-paste-code-block">Copy Paste Code Block</a></li>
+  <li><a href="#clone-this-github-repository" id="toc-clone-this-github-repository" class="nav-link" data-scroll-target="#clone-this-github-repository">Clone this GitHub Repository</a></li>
+  <li><a href="#installing-github-desktop" id="toc-installing-github-desktop" class="nav-link" data-scroll-target="#installing-github-desktop">Installing GitHub Desktop</a></li>
+  <li><a href="#installing-quarto-cli" id="toc-installing-quarto-cli" class="nav-link" data-scroll-target="#installing-quarto-cli">Installing Quarto CLI</a></li>
+  <li><a href="#installing-the-quarto-vs-code-extension" id="toc-installing-the-quarto-vs-code-extension" class="nav-link" data-scroll-target="#installing-the-quarto-vs-code-extension">Installing the Quarto VS Code Extension</a></li>
+  <li><a href="#install-python-libraries" id="toc-install-python-libraries" class="nav-link" data-scroll-target="#install-python-libraries">Install Python Libraries</a></li>
+  <li><a href="#install-other-vs-code-extensions" id="toc-install-other-vs-code-extensions" class="nav-link" data-scroll-target="#install-other-vs-code-extensions">Install Other VS Code Extensions</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/byuistats/DS250-Course/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -255,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 1, 2020</p>
+      <p class="date">April 30, 2020</p>
     </div>
   </div>
   
@@ -285,11 +291,65 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="copy-paste-code-block" class="level3">
 <h3 class="anchored" data-anchor-id="copy-paste-code-block">Copy Paste Code Block</h3>
-<pre class="batch"><code>git clone https://github.com/byui-bwh/db-workstation-automation.git
+<pre class="batch"><code>git clone https://github.com/byui-bwh/db-workstation-automation.git 
 
 cd db-workstation-automation/
 
 . ./provision_vm.sh</code></pre>
+</section>
+<section id="clone-this-github-repository" class="level3">
+<h3 class="anchored" data-anchor-id="clone-this-github-repository">Clone this GitHub Repository</h3>
+<pre class="batch"><code>cd Desktop
+git clone https://github.com/NicholasBoss/clarkstudents24.git</code></pre>
+</section>
+<section id="installing-github-desktop" class="level3">
+<h3 class="anchored" data-anchor-id="installing-github-desktop">Installing GitHub Desktop</h3>
+<ul>
+<li>Open the Repo just cloned in Visual Studio Code</li>
+<li>Navigate through <code>code</code> to <code>week 2</code> and open the <code>root.py</code> file</li>
+<li>Run the code in the <code>root.py</code> file by pressing the play button in the top right corner of the file
+<ul>
+<li>When asked to run the GitHub desktop script answer <code>y</code></li>
+<li>When asked to run the file setup script answer <code>n</code></li>
+<li>Close the file</li>
+</ul></li>
+</ul>
+</section>
+<section id="installing-quarto-cli" class="level3">
+<h3 class="anchored" data-anchor-id="installing-quarto-cli">Installing Quarto CLI</h3>
+<ul>
+<li>Navigete to the Quarto CLI <a href="https://byuidss.slack.com/archives/D01ULMRAD8T/p1715879012282849">website for Linux</a>
+<ul>
+<li>Run all the termainal commands on the site in the terminal in the AWS instance</li>
+</ul></li>
+</ul>
+</section>
+<section id="installing-the-quarto-vs-code-extension" class="level3">
+<h3 class="anchored" data-anchor-id="installing-the-quarto-vs-code-extension">Installing the Quarto VS Code Extension</h3>
+<ul>
+<li>Open Visual Studio Code</li>
+<li>Click on the <code>Extensions</code> icon in the left side bar</li>
+<li>Search for <code>Quarto</code> in the search bar</li>
+<li>Click the <code>Install</code> button on the <code>Quarto</code> extension</li>
+<li>Close the <code>Extensions</code> tab</li>
+</ul>
+</section>
+<section id="install-python-libraries" class="level3">
+<h3 class="anchored" data-anchor-id="install-python-libraries">Install Python Libraries</h3>
+<ul>
+<li>Open the terminal in Visual Studio Code</li>
+<li>Run the following command to install the required Python libraries</li>
+</ul>
+<pre class="batch"><code>pip install numpy pandas scikit-learn plotly.express nbformat nbclient pyyaml jupyter</code></pre>
+</section>
+<section id="install-other-vs-code-extensions" class="level3">
+<h3 class="anchored" data-anchor-id="install-other-vs-code-extensions">Install Other VS Code Extensions</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter">Jupyter</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare">Live Share</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Pylance</a></li>
+</ul>
 
 
 </section>

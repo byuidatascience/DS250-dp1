@@ -2,230 +2,242 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/workbooks.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-03-26T02:09:25.053Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/slides.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.985Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-06-20T18:37:04.555Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/materials.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.982Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/faq.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.980Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Workbooks/wb6.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.976Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Workbooks/wb4.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-27T15:33:12.622Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Workbooks/wb2.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.973Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Workbooks/wb1.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.971Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Syllabus/syllabus.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-04-16T14:14:37.988Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Skill Builders/relational_data.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.965Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Skill Builders/pandas_altair.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.962Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Skill Builders/ml_sklearn.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.960Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Skill Builders/introduction.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.957Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/vs_code_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-05-16T19:16:43.530Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/slack_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-03-26T17:49:52.053Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/python_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-20T18:58:49.225Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/plotly_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-03-26T17:51:05.063Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/copilot_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-03-26T17:51:22.984Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/altair_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-03-26T17:51:45.223Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/Archive/altair_setup_v0.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-05-07T18:14:43.988Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/project_5.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-21T17:05:36.020Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/project_3.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-20T23:10:55.073Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/project_1.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-21T17:05:31.952Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/Archive/project_6_v0.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.940Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/vs_code.html</loc>
-    <lastmod>2024-04-03T18:19:51.096Z</lastmod>
+    <lastmod>2024-03-27T20:18:05.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/sql_page.html</loc>
+    <lastmod>2024-06-20T19:21:21.351Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/python.html</loc>
-    <lastmod>2024-04-03T18:19:51.096Z</lastmod>
+    <lastmod>2024-06-20T19:34:07.420Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/ml.html</loc>
-    <lastmod>2024-04-03T18:19:51.096Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/data_visualise_plotly.html</loc>
+    <lastmod>2024-06-20T19:21:21.357Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/altair.html</loc>
-    <lastmod>2024-04-03T18:19:51.096Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.625Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/git_pull_merge.html</loc>
-    <lastmod>2024-04-03T18:19:51.096Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.631Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/plotly_express.html</loc>
-    <lastmod>2024-04-03T18:19:51.096Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.636Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/sql.html</loc>
-    <lastmod>2024-04-03T18:19:51.096Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.637Z</lastmod>
+  </url>
+  <url>
+    <loc>https://byuidatascience.github.io/DS250-Course-Draft/Course Materials/visualize.html</loc>
+    <lastmod>2024-06-20T23:06:18.474Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/Archive/project_0_v0.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-03-20T18:07:02.157Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/project_0.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-21T17:05:29.745Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/project_2.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-21T17:05:33.502Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/project_4.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-21T17:05:34.828Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Projects/project_6.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-05-15T21:47:32.470Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/Archive/git_github_setup_v0.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-03-14T21:59:29.179Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/aws_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-20T18:37:11.176Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/git_github_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-20T19:02:24.651Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/python_lib.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-20T18:37:09.735Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/quarto_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-06-20T18:59:27.542Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Setup/sql_setup.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-03-26T17:49:38.896Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Skill Builders/git_github.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.954Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Skill Builders/json_missing.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.960Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Skill Builders/munging.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.962Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Skill Builders/pandas_plotly.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.964Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Syllabus/competency.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-04-16T14:08:05.393Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Workbooks/wb0.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.971Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Workbooks/wb2(0).html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.973Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Workbooks/wb3.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.975Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/Workbooks/wb5.html</loc>
-    <lastmod>2024-04-03T18:19:51.424Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.976Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/contact.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.979Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/index.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-03-23T21:38:59.124Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/projects.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-03-26T02:09:28.601Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/skill_builders.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.984Z</lastmod>
   </url>
   <url>
     <loc>https://byuidatascience.github.io/DS250-Course-Draft/syllabus.html</loc>
-    <lastmod>2024-04-03T18:19:51.448Z</lastmod>
+    <lastmod>2024-02-22T15:42:15.986Z</lastmod>
   </url>
 </urlset>

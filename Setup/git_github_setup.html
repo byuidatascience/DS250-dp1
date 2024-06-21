@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2020-05-01">
+<meta name="dcterms.date" content="2020-04-30">
 
 <title>DS 250 - Git and GitHub for DS</title>
 <style>
@@ -182,6 +182,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../Setup/python_lib.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Python Libraries</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../Setup/vs_code_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">VS Code</span></a>
   </div>
@@ -191,13 +198,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../Setup/quarto_setup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quarto</span></a>
-  </div>
-</li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Setup/python_lib.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Python Libraries</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -252,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 1, 2020</p>
+      <p class="date">April 30, 2020</p>
     </div>
   </div>
   
@@ -264,56 +264,66 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Note: Changes have been made to this course since the video was recorded. The video is still relevant and will be updated in the future to reflect the changes. For conflicts of the video and the text, the text is the most current.</p>
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_oqjilp7j&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&amp;wid=1_vsr13bv6" width="608" height="402" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W0 - Setup Git and GitHub"></iframe>
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_m518zgqz&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&amp;wid=1_ejww8qsl" width="608" height="402" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W0 - Course Work Portfolio"></iframe>
 <section id="setup-git-and-github" class="level3">
 <h3 class="anchored" data-anchor-id="setup-git-and-github">Setup Git and GitHub</h3>
-<section id="github-will-be-used-for-publishing-all-projects" class="level5">
-<h5 class="anchored" data-anchor-id="github-will-be-used-for-publishing-all-projects">GitHub will be used for publishing all projects</h5>
+<section id="github-will-be-used-for-publishing-all-projects" class="level4">
+<h4 class="anchored" data-anchor-id="github-will-be-used-for-publishing-all-projects">GitHub will be used for publishing all projects</h4>
 <ol type="1">
-<li><p>Install <a href="https://git-scm.com/">git</a> on your computer</p>
+<li>Install <a href="https://git-scm.com/">git</a> on your computer
 <ul>
-<li><a href="https://git-scm.com/download/win">Windows</a> Installation<br>
-</li>
+<li><a href="https://git-scm.com/download/win">Windows</a> Installation Note: Keep all settings as default during installation</li>
 <li><a href="https://git-scm.com/download/mac">Mac</a> Installation<br>
 Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by running <code>brew install git</code> in the terminal. You will need to install <a href="https://brew.sh/">homebrew</a> first if you don’t have it</li>
 </ul></li>
-<li><p>Create a <a href="https://education.github.com/discount_requests/application">GitHub</a> Student Account with your BYUI-I email.</p>
+<li>Create a <a href="https://education.github.com/discount_requests/application">GitHub</a> Student Account with your BYUI-I email.
 <ul>
 <li>Use an <a href="https://workplace.stackexchange.com/questions/83967/does-my-employer-care-about-my-github-username">appropriate username</a>. It will be the name of your public profile and website in Project 6.</li>
 </ul></li>
-<li><p><a href="https://desktop.github.com/">Install</a> GitHub Desktop</p></li>
-<li><p>Connect to our BYU-I organizations on GitHub (optional)</p>
-<ul>
-<li><a href="https://posit.byua.%20edu/connect/#/apps/ef78adcd-d72b-4e3f-ac45-3e5e662fbd73/access">BYU-I Data Science Society</a> <em>default organization</em></li>
-</ul></li>
-<li><p><strong>Git a Course Work Portfolio in GitHub</strong></p>
+<li><a href="https://desktop.github.com/">Install</a> GitHub Desktop</li>
+</ol>
+<!-- 1. Connect to our BYU-I organizations on GitHub (optional)  
+    * [BYU-I Data Science Society](https://posit.byui.edu/connect/#/apps/ef78adcd-d72b-4e3f-ac45-3e5e662fbd73/access) _default organization_   -->
+<ol type="1">
+<li><strong>Git a Course Work Portfolio in GitHub</strong>
 <ol type="a">
 <li><strong>Use the Portfolio Template in Data Science GitHub repo</strong>
 <ul>
-<li><strong>Navigate to the <a href="https://github.com/byuidatascience/course_work_portfolio">Course Work Portfolio</a> in GitHub</strong></li>
+<li><strong>Navigate to the <a href="https://github.com/byuidatascience/course_work_portfolio_docs">Course Work Portfolio</a> in GitHub</strong><br>
+</li>
 <li><strong>Click the Green Button <code>Use this template</code> and select <code>Create a new repository</code></strong><br>
-<img src="../Images/gh_template.png" class="img-fluid" width="150"></li>
+<img src="../Images/gh_template.png" class="img-fluid" width="200"><br>
+</li>
 <li><strong>Select <code>byui-math-dept</code> as the <code>Owner</code> You should have been added to <code>byui-math-dept</code> by your teacher if you dont see it ask them to add you. This Org uses SSO with BYUI, if you dont have your BYUI email in your GitHub account you need to add it (account -&gt; settings -&gt; emails -&gt; add email address)</strong><br>
-<img src="../Images/gh_math_owner.png" class="img-fluid" width="500"></li>
+<img src="../Images/gh_math_owner.png" class="img-fluid" width="400"><br>
+</li>
 <li><strong>Name the repository as your GitHub <code>username</code> + <code>_</code> + <code>your first semester and year</code>all lowercase (see example in image above)</strong><br>
 </li>
 <li><strong>Select <code>Private</code> as the type of Repo, then click <code>Create Repository</code></strong><br>
 <img src="../Images/gh_private.png" class="img-fluid" width="500"></li>
 </ul></li>
-<li><strong>Modify Pages Settings for Build and deployment from <code>/(root)</code> to <code>/docs</code>:</strong>
+<li><strong>Modify Pages Settings for Build and deployment to be <code>main</code> and <code>/docs</code>:</strong>
 <ul>
 <li><strong>Click the <code>Settings</code> tab</strong><br>
-<img src="../Images/gh_settings.png" class="img-fluid" width="300"></li>
+<img src="../Images/gh_settings.png" class="img-fluid" width="400"><br>
+</li>
 <li><strong>Scroll down to the <code>Pages</code> section in the left hand menu</strong><br>
-<img src="../Images/gh_pages.png" class="img-fluid" width="500"></li>
-<li><strong>Locate the Build and deployment section and change Branch from <code>main</code> to <code>gh-pages</code></strong><br>
+<img src="../Images/gh_pages.png" class="img-fluid" width="300"><br>
+</li>
+<li><strong>Locate the Build and deployment section and make sure the Source is <code>Deploy from a branch</code>, the Branch is <code>main</code>, and the folder is <code>/docs</code>. Dont forget to click <code>Save</code></strong><br>
 <img src="../Images/gh_main_docs.png" class="img-fluid" width="500"></li>
 </ul></li>
 <li><strong>Clone the repository to your computer</strong>
 <ul>
 <li><strong>Click the <code>&lt;&gt; Code</code> menu</strong></li>
 <li><strong>Click the Green Button <code>&lt;&gt; Code</code> and select <code>Open with GitHub Desktop</code></strong><br>
-<img src="../Images/gh_open_in_desktop.png" class="img-fluid" width="500"></li>
-<li><strong>Click the Button <code>Open in Visual Studio Code</code></strong> <img src="../Images/gh_open_in_vs_code.png" class="img-fluid" width="500"></li>
+<img src="../Images/gh_open_in_desktop.png" class="img-fluid" width="400"><br>
+</li>
+<li><strong>Click the Button <code>Open in Visual Studio Code</code></strong> <img src="../Images/gh_open_in_vs_code.png" class="img-fluid" width="500"><br>
+</li>
+<li><strong>If it asks for a username and password, this is because your GitHub Desktop is not logged in to your GitHub account via SSO. Log out of your account in GitHub Desktop, be logged in in your browser to GitHub and make sure you can access the byui-math-dept org where you cloned your new portfolio. Then repete these instructions. It will log you back in to GitHub Desktop but this with with the SSO credentials</strong></li>
 </ul></li>
 <li><strong>Update the <code>_quarto.yml</code> file</strong>
 <ul>
@@ -323,10 +333,16 @@ Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by
 <li><strong>Change the page footer <code>href:</code> to your LinkedIn profile link</strong></li>
 <li><strong>Scroll to the bottom and change the theme <code>light:</code> and/or <code>dark:</code> to another theme (optional)</strong></li>
 </ul></li>
+<li><strong>Quarto Render</strong>
+<ul>
+<li><strong>Open the terminal in VS Code</strong></li>
+<li><strong>Run <code>quarto render</code> to build the site</strong></li>
+</ul></li>
 <li><strong>Push the changes to GitHub via GitHub Desktop</strong>
 <ul>
 <li><strong>Make sure you have the correct repo selected in the top left</strong><br>
-<img src="../Images/gh_current_repo2.png" class="img-fluid" width="300"></li>
+<img src="../Images/gh_current_repo2.png" class="img-fluid" width="300"><br>
+</li>
 <li><strong>Type a commit message and click the Blue Button <code>Commit to main</code></strong><br>
 <img src="../Images/gh_commit_main.png" class="img-fluid" width="300"><br>
 </li>
@@ -334,12 +350,56 @@ Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by
 <img src="../Images/gh_push_origin.png" class="img-fluid" width="500"></li>
 </ul></li>
 </ol></li>
-<li><p><strong>Git your Resume in your Portfolio (<a href="../Workbooks/wb1.html">Learn Markdown</a>)</strong></p>
+<li><strong>Git your Resume in your Portfolio (<a href="../Workbooks/wb1.html">Learn Markdown</a>)</strong>
 <ul>
 <li><strong>Edit the <code>resume.qmd</code> file in the Course Work Portfolio use markdown to to populate your resume</strong><br>
 </li>
 <li><strong>Push your results to GitHub with GitHub Desktop.</strong></li>
 </ul></li>
+</ol>
+</section>
+<section id="github-portfolio-conversion-to-use-docs" class="level4">
+<h4 class="anchored" data-anchor-id="github-portfolio-conversion-to-use-docs">GitHub Portfolio Conversion to use Docs</h4>
+<ol type="1">
+<li><strong>Convert your Course Work Portfolio to use Docs</strong>
+<ol type="a">
+<li><strong>Convert your Portfolio to use the <code>docs</code> folder for the site</strong>
+<ul>
+<li><strong>Create a new folder in your repository called <code>docs</code></strong><br>
+</li>
+<li><strong>Update the <code>_quarto.yml</code> file to point to the <code>docs</code> folder for the site</strong>
+<ul>
+<li><strong>Add this code to line 3 <code>output-dir: docs</code></strong></li>
+</ul></li>
+</ul></li>
+<li><strong>Modify Pages Settings for Build and deployment to be <code>main</code> and <code>/docs</code>:</strong>
+<ul>
+<li><strong>Click the <code>Settings</code> tab</strong><br>
+<img src="../Images/gh_settings.png" class="img-fluid" width="400"><br>
+</li>
+<li><strong>Scroll down to the <code>Pages</code> section in the left hand menu</strong><br>
+<img src="../Images/gh_pages.png" class="img-fluid" width="300"><br>
+</li>
+<li><strong>Locate the Build and deployment section and make sure the Source is <code>Deploy from a branch</code>, the Branch is <code>main</code>, and the folder is <code>/docs</code>. Dont forget to click <code>Save</code></strong><br>
+<img src="../Images/gh_main_docs.png" class="img-fluid" width="500"></li>
+</ul></li>
+<li><strong>Quarto Render</strong>
+<ul>
+<li><strong>Open the terminal in VS Code</strong></li>
+<li><strong>Run <code>quarto render</code> to build the site</strong></li>
+</ul></li>
+<li><strong>Push the changes to GitHub via GitHub Desktop</strong>
+<ul>
+<li><strong>Make sure you have the correct repo selected in the top left</strong><br>
+<img src="../Images/gh_current_repo2.png" class="img-fluid" width="300"><br>
+</li>
+<li><strong>Type a commit message and click the Blue Button <code>Commit to main</code></strong><br>
+<img src="../Images/gh_commit_main.png" class="img-fluid" width="300"><br>
+</li>
+<li><strong>Click the Blue Button <code>Push origin</code></strong><br>
+<img src="../Images/gh_push_origin.png" class="img-fluid" width="500"></li>
+</ul></li>
+</ol></li>
 </ol>
 
 
