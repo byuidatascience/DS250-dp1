@@ -387,7 +387,7 @@ Note
 <section id="submission" class="level3">
 <h3 class="anchored" data-anchor-id="submission">Submission:</h3>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -396,24 +396,35 @@ Note
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>When you have completed the report, you will need to follow this process to submit your work:</p>
 <ol type="1">
-<li><strong>Before you begin</strong> you must <code>Click</code> the link in the email from GitHub to join your class group in the <code>BYUI-math-dept</code> org in GitHub. (If you have not received an email, please DM your teacher in Slack, this invitation does expire after 7 days so please dont delay in accepting the invitation)</li>
-<li>Have the Course Work Portfolio open in VS Code</li>
-<li>Click <code>Termanal</code> in VS Code and open a new terminal</li>
-<li>In the terminal, type <code>quarto render</code> and press enter
+<li>Have the Course Work Portfolio open in VS Code and open <code>Projects/Project0.qmd</code></li>
+<li>Click <code>Preview Button</code> in VS Code in the top right of the screen
 <ol type="a">
-<li>This will render the entire course work portfolio into <code>HTML</code> files</li>
-<li>This will move all those files into the <code>docs</code> folder</li>
-<li>This can take a few minutes to complete</li>
+<li>This will render the project but also entire course work portfolio into <code>HTML</code> files for review</li>
+<li>Confirm everything displas as you would like it to</li>
+<li>How you see it will be how it is viewed for grading</li>
 <li>If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)</li>
 </ol></li>
-<li>Once the report is rendered, open the <code>GitHub Desktop</code> application</li>
+<li>Once the report is confirmed close the preview and open the <code>GitHub Desktop</code> application</li>
 <li>Type a summary of the changes in the <code>Summary</code> box</li>
 <li>Click <code>Commit to main</code> blue button in the bottom left corner</li>
-<li>Click <code>Push origin</code> blue button in the middle right of the screen</li>
+<li>Click <code>Push origin</code> blue button in the middle right of the screen
+<ol type="a">
+<li>This will push all your changes in the project .qmd file to GitHub</li>
+<li>The publish.yml file will kick off an automated process to render the project into HTML files</li>
+<li>The HTML files will be published to GitHub pages in the gh-pages branch</li>
+<li>The URL to the published project will be in the deployment section in GitHub
+<ol type="1">
+<li>In <code>GitHub Desktop</code> click <code>Open in GitHub</code> to navigete to the repository</li>
+<li>Click on the <code>Actions</code> tab and make sure there were no errors in the rendering process</li>
+<li>Click on the <code>deployment</code> section of the main page of the repository to find the URL</li>
+<li>Navigate to the URL and confirm it displays as you intended</li>
+<li>Copy the URL and submit it in Canvas</li>
+</ol></li>
+</ol></li>
 </ol>
 </div>
 </div>
