@@ -278,9 +278,10 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://git-scm.com/download/mac">Mac</a> Installation<br>
 Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by running <code>brew install git</code> in the terminal. You will need to install <a href="https://brew.sh/">homebrew</a> first if you don’t have it</li>
 </ul></li>
-<li><p>Create a <a href="https://education.github.com/discount_requests/application">GitHub</a> Student Account with your BYUI-I email.</p>
+<li><p>Create a <a href="https://github.com/join">GitHub</a> Account with your <code>BYUI-I email</code>.</p>
 <ul>
 <li>Use an <a href="https://workplace.stackexchange.com/questions/83967/does-my-employer-care-about-my-github-username">appropriate username</a>. It will be the name of your public profile and website in Project 6.</li>
+<li>If you already have a GitHub account, you can add your BYUI-I email to your existing account. Go to <code>Settings</code> -&gt; <code>Emails</code> -&gt; <code>Add email address</code> and make it your primary email.</li>
 </ul></li>
 <li><p><a href="https://desktop.github.com/">Install</a> GitHub Desktop</p></li>
 <li><p><strong>Git a Course Work Portfolio in GitHub</strong></p>
@@ -297,12 +298,25 @@ Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by
 <li><strong>Select <code>byui-math-dept</code> as the <code>Owner</code> You should have been added to <code>byui-math-dept</code> by your teacher if you dont see it ask them to add you. This Org uses SSO with BYUI, if you dont have your BYUI email in your GitHub account you need to add it (account -&gt; settings -&gt; emails -&gt; add email address) If you have performed all these steps and still dont see it look for a badge above <code>Repository template</code> that states <code>Single sign-on to see results in the byui-math-dept organization.</code> Follow that link to sign in with SSO then you will be able to choose <code>byui-math-dept</code> as the <code>Owner</code></strong><br>
 <img src="../Images/gh_math_owner.png" class="img-fluid" width="400"><br>
 </li>
-<li><strong>Name the repository as your GitHub <code>username</code> + <code>_</code> + <code>your first semester and year</code>all lowercase (see example in image above)</strong><br>
+<li><strong>Name the repository as your GitHub <code>username</code> + <code>_</code> + <code>the current semester and year</code>all lowercase (see example in image above)</strong><br>
 </li>
 <li><strong>Select <code>Private</code> as the type of Repo, then click <code>Create Repository</code></strong><br>
 <img src="../Images/gh_private.png" class="img-fluid" width="500"></li>
 </ul></li>
-<li><strong>Create a new branch <code>gh-pages</code> if you forgot to check the <code>include all branches</code> box (skip otherwise)</strong>
+<li><strong>Clone the repository to your computer</strong>
+<ul>
+<li><strong>Click the <code>&lt;&gt; Code</code> menu</strong></li>
+<li><strong>Click the Green Button <code>&lt;&gt; Code</code> and select <code>Open with GitHub Desktop</code></strong><br>
+<img src="../Images/gh_open_in_desktop.png" class="img-fluid" width="400"><br>
+</li>
+<li><strong>Click the Button <code>Open in Visual Studio Code</code></strong> <img src="../Images/gh_open_in_vs_code.png" class="img-fluid" width="500"><br>
+</li>
+<li><strong>If it asks for a username and password, this is because your GitHub Desktop is not logged in to your GitHub account via SSO. Log out of your account in GitHub Desktop, be logged in in your browser to GitHub and make sure you can access the byui-math-dept org where you cloned your new portfolio. Then repete these instructions. It will log you back in to GitHub Desktop but this with with the SSO credentials</strong></li>
+</ul></li>
+</ol></li>
+<li><p><strong>If you forgot to <code>Check the box to Include all branches</code> in the previous step (otherwise skip to the next step): Create a new branch <code>gh-pages</code></strong></p>
+<ol type="a">
+<li><strong>Create a new branch <code>gh-pages</code></strong>
 <ul>
 <li><strong>Click the <code>Branch: main</code> button then <code>view all branches</code></strong><br>
 <img src="../Images/gh_view_all_branches.png" class="img-fluid" width="300"></li>
@@ -320,24 +334,19 @@ Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by
 <li><strong>Locate the Build and deployment section and change Branch from <code>main</code> to <code>gh-pages</code> and leave the right side as <code>/root</code></strong><br>
 <img src="../Images/gh_gh-pages_root.png" class="img-fluid" width="750"></li>
 </ul></li>
-<li><strong>Clone the repository to your computer</strong>
-<ul>
-<li><strong>Click the <code>&lt;&gt; Code</code> menu</strong></li>
-<li><strong>Click the Green Button <code>&lt;&gt; Code</code> and select <code>Open with GitHub Desktop</code></strong><br>
-<img src="../Images/gh_open_in_desktop.png" class="img-fluid" width="400"><br>
-</li>
-<li><strong>Click the Button <code>Open in Visual Studio Code</code></strong> <img src="../Images/gh_open_in_vs_code.png" class="img-fluid" width="500"><br>
-</li>
-<li><strong>If it asks for a username and password, this is because your GitHub Desktop is not logged in to your GitHub account via SSO. Log out of your account in GitHub Desktop, be logged in in your browser to GitHub and make sure you can access the byui-math-dept org where you cloned your new portfolio. Then repete these instructions. It will log you back in to GitHub Desktop but this with with the SSO credentials</strong></li>
-</ul></li>
-<li><strong>Update the <code>_quarto.yml</code> file</strong>
-<ul>
-<li><strong>Change the <code>title</code> to your name</strong></li>
-<li><strong>Change the <code>repo-rul</code> to a brief description of your portfolio</strong></li>
-<li><strong>Change the page-footer <code>left:</code> to your name</strong></li>
-<li><strong>Change the page footer <code>href:</code> to your LinkedIn profile link</strong></li>
+</ol></li>
+<li><p><strong>Update the <code>_quarto.yml</code> file in course work portfolio:</strong></p>
+<ol type="a">
+<li><strong>update the <code>title</code> to includ your name</strong></li>
+<li><strong>update the <code>site url</code> to your published site url (this will be in the deployment section in GitHub)</strong></li>
+<li><strong>update the <code>repo-url</code> to your GitHub repository url</strong></li>
+<li><strong>update the <code>issue-url</code> to your GitHub issue url (its the same as the repo url but with <code>/issues/new</code> at the end)</strong></li>
+<li><strong>update the <code>page-footer</code> <code>left</code> to include your name (line 15)</strong></li>
+<li><strong>update the <code>page-footer</code> <code>right</code> <code>href</code> to include your LinkedIn url (line 18 - optional)</strong></li>
 <li><strong>Scroll to the bottom and change the theme <code>light:</code> and/or <code>dark:</code> to another theme (optional)</strong></li>
-</ul></li>
+</ol></li>
+<li><p><strong>Commit and Push the changes made to GitHub</strong></p>
+<ol type="a">
 <li><strong>Push the changes to GitHub via GitHub Desktop</strong>
 <ul>
 <li><strong>Make sure you have the correct repo selected in the top left</strong><br>
@@ -347,7 +356,9 @@ Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by
 <img src="../Images/gh_commit_main.png" class="img-fluid" width="300"><br>
 </li>
 <li><strong>Click the Blue Button <code>Push origin</code></strong><br>
-<img src="../Images/gh_push_origin.png" class="img-fluid" width="500"></li>
+<img src="../Images/gh_push_origin.png" class="img-fluid" width="500"><br>
+</li>
+<li><strong>If it gives you a big long error when you push, this is because your GitHub Desktop is not logged in to your GitHub account via SSO. Log out of your account in GitHub Desktop, and log right back in</strong></li>
 </ul></li>
 <li><strong>Confirm the GitHub Actions are working</strong>
 <ul>
@@ -356,7 +367,10 @@ Note: Mac users can install git using <a href="https://brew.sh/">homebrew</a> by
 <li><strong>Confirm the <code>Update _quarto.yml</code> is working by the yellow circle turning to a green check circle (Note: this can take 3-5min)</strong><br>
 <img src="../Images/gh_all_workflows.png" class="img-fluid" width="300"></li>
 </ul></li>
-<li><strong>Fix the main page loading the ReadMe.md file</strong>
+</ol></li>
+<li><p><strong>Fix for a common bug</strong></p>
+<ol type="a">
+<li><strong>Fix for the main page loading the ReadMe.md file instead of the portfolio website</strong>
 <ul>
 <li><strong>Run <code>quarto publish gh-pages</code> in the terminal of VS Code</strong></li>
 </ul></li>

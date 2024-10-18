@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -301,7 +335,9 @@ Note
 </div>
 </div>
 </div>
-<p><strong>Download:</strong> <a href="https://aeturrell.github.io/python4DS/data-visualise.html#the-penguins-data-frame">penguins data</a></p>
+<p><strong>URL:</strong> <a href="https://aeturrell.github.io/python4DS/data-visualise.html#the-penguins-data-frame">penguins data</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="op">=</span> load_penguins()</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="readings" class="level3">
 <h3 class="anchored" data-anchor-id="readings">Readings</h3>
@@ -362,19 +398,22 @@ Note
 </div>
 <p>In the DS 250 folder of the Course Work Portfolio, edit the <code>Project0.qmd</code> quarto file to build a report that includes the following:</p>
 <ol type="1">
-<li><strong>Finish the <a href="../setup.html">Course Setup</a>, and post any questions to getting your environment working smoothly in your course Slack channel</strong><br>
-</li>
-<li><strong>Recreate the example chart from <a href="https://aeturrell.github.io/python4DS/data-visualise.html">PY4DS: CH2 Data Visualization</a> of the textbook.</strong></li>
-<li><strong>Include the table created from <a href="https://aeturrell.github.io/python4DS/data-visualise.html">PY4DS: CH2 Data Visualization</a> used to create the above chart</strong><br>
-</li>
-<li><strong>Update the <code>_quarto.yml</code> file in course work portfolio:</strong>
+<li><strong>The <code>project_0.qmd</code> file is has working code for the Penguine data set. You need to finish the project by updating its markdown so that it is a report by completing the following tasks:</strong>
 <ol type="a">
-<li>update the <code>title</code> to includ your name</li>
-<li>update the <code>site url</code> to your published site url (this will be in the deployment section in GitHub)</li>
-<li>update the <code>repo-url</code> to your GitHub repository url</li>
-<li>update the <code>issue-url</code> to your GitHub issue url (its the same as the repo url but with <code>/issues/new</code> at the end)</li>
-<li>update the <code>page-footer</code> <code>left</code> to include your name</li>
-<li>update the <code>page-footer</code> <code>right</code> <code>href</code> to include your LinkedIn url (optional)</li>
+<li>do not modify or remove any of the code cells while completing the tasks, the code is already there for you</li>
+<li>remove the introduction header and text</li>
+<li>update the elevator pitch per its instructions</li>
+<li>copy and paste this question for Question|Task 1
+<ol type="1">
+<li><strong>Recreate the example charts from <a href="https://aeturrell.github.io/python4DS/data-visualise.html">PY4DS: CH2 Data Visualization</a> of the textbook.</strong></li>
+</ol></li>
+<li>copy and paste this question for Question|Task 2
+<ol start="2" type="1">
+<li><strong>Include the tables created from <a href="https://aeturrell.github.io/python4DS/data-visualise.html">PY4DS: CH2 Data Visualization</a> used to create the above chart</strong><br>
+</li>
+</ol></li>
+<li>remove the notes at the bottom of the file</li>
+<li>follow the instructions in the submission section below to submit your work</li>
 </ol></li>
 <li><strong>Update the <code>resume.qmd</code> file in course work portfolio to include your updated resume using markdown. See <a href="https://aeturrell.github.io/python4DS/markdown.html">P4DS: CH30 Markdown</a></strong></li>
 </ol>
