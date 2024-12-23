@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2020-05-01">
 
-<title>Project 2: Late Flights &amp; Missing Data (JSON) – DS 250</title>
+<title>Project 2: Finding Relationships in Baseball – DS 250</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Projects/project_2.html">Project 2: Late Flights and Missing Data (JSON)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Projects/project_2.html">Project 2: Finding Relationships in Baseball</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -176,14 +176,14 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Projects/project_2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Project 2: Late Flights and Missing Data (JSON)</span></a>
+ <span class="menu-text">Project 2: Finding Relationships in Baseball</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Projects/project_3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project 3: Finding Relationships in Baseball</span></a>
+ <span class="menu-text">Project 3: Late Flights and Missing Data (JSON)</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -219,6 +219,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#walkthrough" id="toc-walkthrough" class="nav-link active" data-scroll-target="#walkthrough">Walkthrough</a></li>
+  <li><a href="#sql-refresher" id="toc-sql-refresher" class="nav-link" data-scroll-target="#sql-refresher">SQL Refresher</a></li>
   <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
   <li><a href="#client-request" id="toc-client-request" class="nav-link" data-scroll-target="#client-request">Client Request</a></li>
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
@@ -227,7 +228,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#questions-and-tasks-stretch" id="toc-questions-and-tasks-stretch" class="nav-link" data-scroll-target="#questions-and-tasks-stretch">Questions and Tasks (Stretch)</a></li>
   <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission:</a></li>
   <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables:</a></li>
-  <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">Feedback:</a></li>
   <li><a href="#resubmission" id="toc-resubmission" class="nav-link" data-scroll-target="#resubmission">Resubmission:</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/byuistats/DS250-Course/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
@@ -237,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Project 2: Late Flights &amp; Missing Data (JSON)</h1>
+<h1 class="title">Project 2: Finding Relationships in Baseball</h1>
 </div>
 
 
@@ -262,7 +262,11 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="walkthrough" class="level3">
 <h3 class="anchored" data-anchor-id="walkthrough">Walkthrough</h3>
-<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_23faja3r&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&amp;wid=1_pa4fc35g" width="608" height="402" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W04 - Project 2 Walkthrough"></iframe>
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_vorsrvf5&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&amp;wid=1_yk1gpo38" width="608" height="402" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W06 - Project 3 Walkthrough"></iframe>
+</section>
+<section id="sql-refresher" class="level3">
+<h3 class="anchored" data-anchor-id="sql-refresher">SQL Refresher</h3>
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1157612/sp/115761200/embedIframeJs/uiconf_id/41338032/partner_id/1157612?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_9t2izp1p&amp;flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&amp;wid=1_bf7e4rqh" width="608" height="402" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="W07 - SQL Intro"></iframe>
 </section>
 <section id="background" class="level3">
 <h3 class="anchored" data-anchor-id="background">Background</h3>
@@ -283,17 +287,17 @@ Note
 </div>
 </div>
 </div>
-<p>Delayed flights are not something most people look forward to. In the best case scenario you may only wait a few extra minutes for the plane to be cleaned. However, those few minutes can stretch into hours if a mechanical issue is discovered or a storm develops. Arriving hours late may result in you missing a connecting flight, job interview, or your best friend’s wedding.</p>
-<p>In 2003 the Bureau of Transportation Statistics (BTS) began collecting data on the causes of delayed flights. The categories they use are Air Carrier, National Aviation System, Weather, Late-Arriving Aircraft, and Security. You can visit the <a href="https://www.bts.gov/topics/airlines-and-airports/understanding-reporting-causes-flight-delays-and-cancellations">BTS website</a> to read definitions of these categories.</p>
+<p>When you hear the word “relationship” what is the first thing that comes to mind? Probably not baseball. But a relationship is simply a way to describe how two or more objects are connected. There are many relationships in baseball such as those between teams and managers, players and salaries, even stadiums and concession prices.</p>
+<p>The graphs on <a href="https://web.archive.org/web/20200804101201/http://www.besttickets.com/blog/mlb-players-census/">Data Visualizations from Best Tickets</a> show many other relationships that exist in baseball.</p>
 </section>
 <section id="client-request" class="level3">
 <h3 class="anchored" data-anchor-id="client-request">Client Request</h3>
-<p>The JSON file for this project contains information on delays at 7 airports over 10 years. Your task is to clean the data, search for insights about flight delays, and communicate your results to the Client. The Client is a CEO of a flight booking app who is interested in the causes of flight delays and wants to know which airports have the worst delays. They also want to know the best month to fly if you want to avoid delays of any length.</p>
+<p>For this project, the Client wants SQL queries that they can use to retrieve data for use on their website without needing Python. They would also like to see the results in Lets-Plot charts.</p>
 </section>
 <section id="data" class="level3">
 <h3 class="anchored" data-anchor-id="data">Data</h3>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -302,15 +306,15 @@ Note
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Every data science project should start with data, and our class projects are no different. Each project will have <strong>‘URL’</strong> and <strong>‘Information’</strong> links like the ones below. Right click the <strong>‘URL’</strong> link and select “Copy Link” to use it to import the data into your project. This is the preferred method to get data into your report as you will be publishing your report to GitHub. If you choose to download the data file to your computer you will need to save it in the same folder as your <code>project#.qmd</code> file for it to work correclty in GitHub.</p>
+<p>Every data science project should start with data, and our class projects are no different. Each project will have <strong>‘URL’</strong> and <strong>‘Information’</strong> links like the ones below. Project 3 will use the Lahman Baseball Database. You will need to download the database and set it up on your computer to complete the project. Place it inside the DS250 Projects folder within your repository next to the project_3.qmd file. Note: Right click the <strong>‘Download’</strong> link and select “Save Link As” to download the data to your computer.</p>
 </div>
 </div>
 </div>
-<p><strong>URL:</strong> <a href="https://github.com/byuidatascience/data4missing/raw/master/data-raw/flights_missing/flights_missing.json">JSON File</a><br>
-<strong>Information:</strong> <a href="https://github.com/byuidatascience/data4missing/blob/master/data.md">Data Description</a><br>
-<strong>Subject Matter:</strong> <a href="https://aspm.faa.gov/aspmhelp/index/Types_of_Delay.html">Types of Delay</a></p>
+<p><strong>Download:</strong> <a href="../Data/lahmansbaseballdb.sqlite">lahmansbaseballdb</a><br>
+<strong>Information:</strong> <a href="../Data/readme2014.txt">Lahman Data Dictionary</a><br>
+<strong>Setup Instructions:</strong> <a href="../Setup/sql_setup.html">See SQL Setup</a></p>
 </section>
 <section id="readings" class="level3">
 <h3 class="anchored" data-anchor-id="readings">Readings</h3>
@@ -332,28 +336,13 @@ Note
 </div>
 </div>
 <ul>
-<li><a href="https://byuidatascience.github.io/python4ds/transform.html">P4DS: CH4 Data Transformation</a> (Read)</li>
-<li><a href="https://byuidatascience.github.io/python4ds/tidy-data.html">P4DS: CH6 Tidy Data</a> (Read)</li>
-<li><a href="https://aeturrell.github.io/python4DS/visualise.html">P4DS: CH11 Visualization</a> (Read)</li>
-<li><a href="https://aeturrell.github.io/python4DS/vis-layers.html">P4DS: CH12 Layers</a> (Skim)</li>
-<li><a href="https://byuidatascience.github.io/python4ds/exploratory-data-analysis.html">P4DS: CH13 Exploratory Data Analysis</a> (Skim)</li>
-<li><a href="https://aeturrell.github.io/python4DS/missing-values.html">P4DS: CH21 Missing Values</a> (Read)</li>
-<li><a href="https://aeturrell.github.io/python4DS/rectangling.html#json-java-script-object-notation">P4DS: Ch25.3 JSON</a> (Read)</li>
+<li><a href="../Course Materials/sql.html">SQL Setup and References</a> (Read)</li>
+<li><a href="../Course Materials/sql_page.html">SQL for Data Science</a> (Read)</li>
 </ul>
 <section id="optional-references" class="level4">
 <h4 class="anchored" data-anchor-id="optional-references">Optional References</h4>
 <ul>
-<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html">Python Data Science Handbook: Missing Data</a></li>
-<li><a href="https://towardsdatascience.com/machine-learning-handling-missing-data-27b09ab146ba">Handling Missing Data</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Missing_data">Wikipedia Missing Data</a></li>
-<li><a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#indexing-with-isin">isin method</a></li>
-<li><a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#the-where-method-and-masking">where method</a></li>
-<li><a href="https://numpy.org/doc/stable/reference/generated/numpy.where.html">np.where method</a></li>
-<li><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html">replace method</a></li>
-<li><a href="https://towardsdatascience.com/an-introduction-to-json-c9acb464f43e">An introduction to JSON</a> <em>(May need to open in ingognito to read.)</em></li>
-<li><a href="https://simplystatistics.org/posts/2013-12-12-the-key-word-in-data-science-is-not-data-it-is-science/">The key word in ‘Data Science’ is not Data…</a></li>
-<li><a href="https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4">How to Handle Missing Data</a> <em>(May need to open in ingognito to read.)</em></li>
-<li><a href="https://realpython.com/python-lambda/">Lambda Function</a></li>
+<li><a href="https://blog.timescale.com/blog/why-sql-beating-nosql-what-this-means-for-future-of-data-time-series-database-348b777b847a/">Why SQL is beating NoSQL, and what this means for the future of data</a></li>
 </ul>
 </section>
 </section>
@@ -371,31 +360,60 @@ Note
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, pushed to GitHub and a URL submitted in Canvas by the weekend following the last day of material for the project.</p>
+<p>This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, rendered to a HTML file and uploaded in Canvas.</p>
 <p>There are two types of questions: Core and Stretch. Core questions are required for each project. The course syllabus <a href="../Syllabus/competency.html">competencies</a> requires specic a number of projects having all the Stretch questions achived based on your goals for the grade level you are seeking.</p>
 </div>
 </div>
 </div>
 <ol type="1">
-<li><p><strong>Fix all of the varied missing data types in the data to be consistent (all missing values should be displayed as “NaN”).</strong> In your report include one record example (one row) from your new data, in the raw JSON format. Your example should display the “NaN” for at least one missing value.__</p></li>
-<li><p><strong>Which airport has the worst delays?</strong> Describe the metric you chose, and why you chose it to determine the “worst” airport. Your answer should include a summary table that lists (for each airport) the total number of flights, total number of delayed flights, proportion of delayed flights, and average delay time in hours.</p></li>
-<li><p><strong>What is the best month to fly if you want to avoid delays of any length?</strong> Describe the metric you chose and why you chose it to calculate your answer. Include one chart to help support your answer, with the x-axis ordered by month. (To answer this question, you will need to remove any rows that are missing the <code>Month</code> variable.)</p></li>
-<li><p>According to the BTS website, the “Weather” category only accounts for severe weather delays. Mild weather delays are not counted in the “Weather” category, but are actually included in both the “NAS” and “Late-Arriving Aircraft” categories. <strong>Your job is to create a new column that calculates the total number of flights delayed by weather (both severe and mild).</strong> You will need to replace all the missing values in the Late Aircraft variable with the mean. Show your work by printing the first 5 rows of data in a table. Use these three rules for your calculations:</p>
+<li><p><strong>Write an SQL query to create a new dataframe about baseball players who attended BYU-Idaho. The new table should contain five columns: playerID, schoolID, salary, and the yearID/teamID associated with each salary. Order the table by salary (highest to lowest) and print out the table in your report.</strong></p></li>
+<li><p><strong>This three-part question requires you to calculate batting average (number of hits divided by the number of at-bats)</strong></p>
 <ol type="a">
-<li>100% of delayed flights in the Weather category are due to weather<br>
+<li>Write an SQL query that provides playerID, yearID, and batting average for players with at least 1 at bat that year. Sort the table from highest batting average to lowest, and then by playerid alphabetically. Show the top 5 results in your report.<br>
 </li>
-<li>30% of all delayed flights in the Late-Arriving category are due to weather<br>
+<li>Use the same query as above, but only include players with at least 10 at bats that year. Print the top 5 results.<br>
 </li>
-<li>From April to August, 40% of delayed flights in the NAS category are due to weather. The rest of the months, the proportion rises to 65%</li>
+<li>Now calculate the batting average for players over their entire careers (all years combined). Only include players with at least 100 at bats, and print the top 5 results.</li>
 </ol></li>
-<li><p><strong>Using the new weather variable calculated above, create a barplot showing the proportion of all flights that are delayed by weather at each airport. Describe what you learn from this graph.</strong></p></li>
+<li><p><strong>Pick any two baseball teams and compare them using a metric of your choice (average salary, home runs, number of wins, etc). Write an SQL query to get the data you need, then make a graph using Lets-Plot to visualize the comparison. What do you learn?</strong></p></li>
 </ol>
 </section>
 <section id="questions-and-tasks-stretch" class="level3">
 <h3 class="anchored" data-anchor-id="questions-and-tasks-stretch">Questions and Tasks (Stretch)</h3>
 <p>Here is an example Stretch question(s) for this project. Your instructor may assign different Stretch question(s). You must comment in Canvas when submitting your project if you completed any of the Stretch questions.</p>
 <ol type="1">
-<li><strong>Which delay is the worst delay?</strong> Create a similar analysis as above for Weahter Delay with: Carrier Delay and Security Delay. Compare the proportion of delay for each of the three categories in a Chart and a Table. Describe your results.</li>
+<li><p><strong>Advanced Salary Distribution by Position (with Case Statement):</strong></p>
+<ul>
+<li><p>Write an SQL query that provides a summary table showing the average salary for players in each position (e.g., pitcher, catcher, outfielder) across all years. Include the following columns:</p>
+<ul>
+<li>position</li>
+<li>average_salary</li>
+<li>total_players</li>
+<li>highest_salary</li>
+</ul></li>
+<li><p>The highest_salary column should display the highest salary ever earned by a player in that position. If no player in that position has a recorded salary, display “N/A” for the highest salary.</p></li>
+<li><p>Additionally, create a new column called salary_category using a case statement:</p>
+<ul>
+<li>If the average salary is above $1 million, categorize it as “High Salary.”<br>
+</li>
+<li>If the average salary is between $500,000 and $1 million, categorize it as “Medium Salary.”<br>
+</li>
+<li>Otherwise, categorize it as “Low Salary.”</li>
+</ul></li>
+<li><p>Order the table by average salary in descending order.</p></li>
+<li><p>Print the top 10 rows of this summary table.</p></li>
+</ul></li>
+<li><p><strong>Advanced Career Longevity and Performance (with Subqueries):</strong></p>
+<ul>
+<li><p>Calculate the average career length (in years) for players who have played at least one game. Then, identify the top 10 players with the longest careers (based on the number of years they played). Include their:</p>
+<ul>
+<li>playerID</li>
+<li>first_name</li>
+<li>last_name</li>
+<li>career_length</li>
+</ul></li>
+<li><p>The career_length should be calculated as the difference between the maximum and minimum yearID for each player.</p></li>
+</ul></li>
 </ol>
 </section>
 <section id="submission" class="level3">
@@ -414,7 +432,7 @@ Note
 <div class="callout-body-container callout-body">
 <p>When you have completed the report, you will need to follow this process to submit your work:</p>
 <ol type="1">
-<li>Have the Course Work Portfolio open in VS Code and open <code>Projects/Project0.qmd</code></li>
+<li>Have the <code>P2_template</code> open in VS Code and nothing else</li>
 <li>Click <code>Preview Button</code> in VS Code in the top right of the screen
 <ol type="a">
 <li>This will render the project but also entire course work portfolio into <code>HTML</code> files for review</li>
@@ -422,25 +440,21 @@ Note
 <li>How you see it will be how it is viewed for grading</li>
 <li>If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)</li>
 </ol></li>
-<li>Once the report is confirmed close the preview and open the <code>GitHub Desktop</code> application</li>
-<li>Confirm you are in the correct repository in the top left corner of the screen</li>
-<li>Confirm you are on the correct branch <code>Main</code> in the top left corner of the screen (Never change off the <code>Main</code> branch)</li>
-<li>Type a summary of the changes in the <code>Summary</code> box</li>
-<li>Click <code>Commit to main</code> blue button in the bottom left corner</li>
-<li>Click <code>Push origin</code> blue button in the middle right of the screen
+<li>Once the report is confirmed close the preview and open a VS Code <code>Terminal</code>
 <ol type="a">
-<li>This will push all your changes in the project .qmd file to GitHub</li>
-<li>The publish.yml file will kick off an automated process to render the project into HTML files</li>
-<li>The HTML files will be published to GitHub pages in the gh-pages branch</li>
-<li>The URL to the published project will be in the deployment section in GitHub
-<ol type="1">
-<li>In <code>GitHub Desktop</code> click <code>Open in GitHub</code> to navigete to the repository</li>
-<li>Click on the <code>Actions</code> tab and make sure there were no errors in the rendering process</li>
-<li>Click on the <code>deployment</code> section of the main page of the repository to find the URL</li>
-<li>Navigate to the URL and confirm it displays as you intended</li>
-<li>Copy the URL and submit it in Canvas</li>
+<li>click <code>Terminal</code> in the top menu bar and then <code>New Terminal</code></li>
 </ol></li>
+<li>Type the following in the terminal <code>quarto render</code>
+<ol type="a">
+<li>Then drag and drop <code>P0_template.qmd</code> into the terminal this will add the file path to the terminal command</li>
+<li>Press Enter</li>
 </ol></li>
+<li>This will render the project into a <code>HTML</code> file in the same location as the <code>.qmd</code> file</li>
+<li>To locate the file in VS Code
+<ol type="a">
+<li>Right click on the file in the file explorer and select <code>Reveal in File Explorer</code>(Win) or <code>Reveal in Finder</code>(Mac)</li>
+</ol></li>
+<li>Upload <code>HTML</code> file into Canvas</li>
 </ol>
 </div>
 </div>
@@ -448,8 +462,16 @@ Note
 </section>
 <section id="deliverables" class="level3">
 <h3 class="anchored" data-anchor-id="deliverables">Deliverables:</h3>
+<p><em>Use this <a href="../Templates/P2_template.qmd">P2_template</a> to submit your Client Report.</em></p>
+<ol type="1">
+<li><em>A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did.</em><br>
+</li>
+<li><em>Answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables.</em><br>
+</li>
+<li><em>A short <strong>summary of work must</strong> be submitted in the comments in Canvas wwhen you submit the URL. Rate your own work on a scale of 1-5. 1 being poor and 5 being excellent. Include a short description of why you rated your work the way you did.</em></li>
+</ol>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -458,20 +480,15 @@ Note
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Deliverables are “the quantifiable goods or services that must be provided upon the completion of a project”. In this class the deliverable for each project is a GitHub published report created using Quarto files. This final section will be the same for each project.</p>
+<p><em>Your report should be written in quarto markdown files and rendered to an HTML File. Upload the HTML file in Canvas. (Do not submit the <code>.qmd</code> file)</em></p>
 </div>
 </div>
 </div>
-<p><em>Use this <a href="../Templates/ds250_project_template.qmd">template</a> to submit your Client Report. The template has two sections:</em></p>
-<ol type="1">
-<li><em>A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did.</em><br>
-</li>
-<li><em>Answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables.</em><br>
-</li>
-<li><em>A short <strong>summary of work must</strong> be submitted in the comments in Canvas wwhen you submit the URL. Rate your own work on a scale of 1-5. 1 being poor and 5 being excellent. Include a short description of why you rated your work the way you did.</em></li>
-</ol>
+</section>
+<section id="resubmission" class="level3">
+<h3 class="anchored" data-anchor-id="resubmission">Resubmission:</h3>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -484,45 +501,7 @@ Note
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><em>Your report should be written in quarto markdown files and pushed to GitHub. Submit a URL of the rendered project in Canvas. (Do not submit the URL to the GitHub <code>.qmd</code> file)</em></p>
-</div>
-</div>
-</div>
-</section>
-<section id="feedback" class="level3">
-<h3 class="anchored" data-anchor-id="feedback">Feedback:</h3>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>You will recieve feedback and/or coaching notes in the form of a GitHub issue. You will need to address the feedback, re-render and resubmit the project, and mark the GitHub issue as closed.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="resubmission" class="level3">
-<h3 class="anchored" data-anchor-id="resubmission">Resubmission:</h3>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>You will have <strong>one</strong> opportunity to resubmit the project after you have received feedback. The window for the resubmission will be open through the <strong>Wednesday</strong> following the due date of the project. Therefore it is recomended that you turn in a draft of the project early on the <strong>Thursday</strong> before the due date to ensure you have time to address any feedback and resubmit the project. It is acceptable to turn in a draft that is only 80% complete. This will allow you to get feedback on the majority of the project and then focus on the final details. The closer to that Thursday you turn in the draft the more feedback and coaching you will recieve.</p>
+<p><em>If you submit before the due date</em>, you will have <strong>one</strong> opportunity to resubmit the project after you have received feedback. The window for the resubmission will be open through the <strong>Wednesday</strong> following the due date of the project.</p>
 </div>
 </div>
 </div>

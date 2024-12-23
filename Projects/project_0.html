@@ -210,14 +210,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Projects/project_2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project 2: Late Flights and Missing Data (JSON)</span></a>
+ <span class="menu-text">Project 2: Finding Relationships in Baseball</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Projects/project_3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project 3: Finding Relationships in Baseball</span></a>
+ <span class="menu-text">Project 3: Late Flights and Missing Data (JSON)</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -392,30 +392,19 @@ Note
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, pushed to GitHub and a URL submitted in Canvas by the weekend following the last day of material for the project.</p>
+<p>This section lists the questions and tasks that need to be completed for the project. Your work on the project must be compiled into a report, rendered to a HTML file and uploaded in Canvas.</p>
 </div>
 </div>
 </div>
-<p>In the DS 250 folder of the Course Work Portfolio, edit the <code>Project0.qmd</code> quarto file to build a report that includes the following:</p>
 <ol type="1">
-<li><strong>The <code>project_0.qmd</code> file is has working code for the Penguine data set. You need to finish the project by updating its markdown so that it is a report by completing the following tasks:</strong>
-<ol type="a">
-<li>do not modify or remove any of the code cells while completing the tasks, the code is already there for you</li>
-<li>remove the introduction header and text</li>
-<li>update the elevator pitch per its instructions</li>
-<li>copy and paste this question for Question|Task 1
+<li><strong>Download this <a href="../Templates/P0_template.qmd">Project0 Template</a> template as has working code for the Penguine data set. You need to finish the project by updating its markdown so that it is a report by completing the following tasks:</strong>
 <ol type="1">
-<li><strong>Recreate the example charts from <a href="https://aeturrell.github.io/python4DS/data-visualise.html">PY4DS: CH2 Data Visualization</a> of the textbook.</strong></li>
-</ol></li>
-<li>copy and paste this question for Question|Task 2
-<ol start="2" type="1">
 <li><strong>Include the tables created from <a href="https://aeturrell.github.io/python4DS/data-visualise.html">PY4DS: CH2 Data Visualization</a> used to create the above chart</strong><br>
 </li>
+<li><strong>Recreate the example charts from <a href="https://aeturrell.github.io/python4DS/data-visualise.html">PY4DS: CH2 Data Visualization</a> of the textbook.</strong><br>
+</li>
+<li><strong>Follow the instructions in the submission section below to submit your work</strong></li>
 </ol></li>
-<li>remove the notes at the bottom of the file</li>
-<li>follow the instructions in the submission section below to submit your work</li>
-</ol></li>
-<li><strong>Update the <code>resume.qmd</code> file in course work portfolio to include your updated resume using markdown. See <a href="https://aeturrell.github.io/python4DS/markdown.html">P4DS: CH30 Markdown</a></strong></li>
 </ol>
 </section>
 <section id="submission" class="level3">
@@ -434,7 +423,7 @@ Note
 <div class="callout-body-container callout-body">
 <p>When you have completed the report, you will need to follow this process to submit your work:</p>
 <ol type="1">
-<li>Have the Course Work Portfolio open in VS Code and open <code>Projects/Project0.qmd</code></li>
+<li>Have the <code>P0_template</code> open in VS Code and nothing else</li>
 <li>Click <code>Preview Button</code> in VS Code in the top right of the screen
 <ol type="a">
 <li>This will render the project but also entire course work portfolio into <code>HTML</code> files for review</li>
@@ -442,23 +431,21 @@ Note
 <li>How you see it will be how it is viewed for grading</li>
 <li>If there is an error in any cell of the quarto files, the rendering will stop and you will need to fix the error before rendering again (if you get stuck post your error in Slack)</li>
 </ol></li>
-<li>Once the report is confirmed close the preview and open the <code>GitHub Desktop</code> application</li>
-<li>Type a summary of the changes in the <code>Summary</code> box</li>
-<li>Click <code>Commit to main</code> blue button in the bottom left corner</li>
-<li>Click <code>Push origin</code> blue button in the middle right of the screen
+<li>Once the report is confirmed close the preview and open a VS Code <code>Terminal</code>
 <ol type="a">
-<li>This will push all your changes in the project .qmd file to GitHub</li>
-<li>The publish.yml file will kick off an automated process to render the project into HTML files</li>
-<li>The HTML files will be published to GitHub pages in the gh-pages branch</li>
-<li>The URL to the published project will be in the deployment section in GitHub
-<ol type="1">
-<li>In <code>GitHub Desktop</code> click <code>Open in GitHub</code> to navigete to the repository</li>
-<li>Click on the <code>Actions</code> tab and make sure there were no errors in the rendering process</li>
-<li>Click on the <code>deployment</code> section of the main page of the repository to find the URL</li>
-<li>Navigate to the URL and confirm it displays as you intended</li>
-<li>Copy the URL and submit it in Canvas</li>
+<li>click <code>Terminal</code> in the top menu bar and then <code>New Terminal</code></li>
 </ol></li>
+<li>Type the following in the terminal <code>quarto render</code>
+<ol type="a">
+<li>Then drag and drop <code>P0_template.qmd</code> into the terminal this will add the file path to the terminal command</li>
+<li>Press Enter</li>
 </ol></li>
+<li>This will render the project into a <code>HTML</code> file in the same location as the <code>.qmd</code> file</li>
+<li>To locate the file in VS Code
+<ol type="a">
+<li>Right click on the file in the file explorer and select <code>Reveal in File Explorer</code>(Win) or <code>Reveal in Finder</code>(Mac)</li>
+</ol></li>
+<li>Upload <code>HTML</code> file into Canvas</li>
 </ol>
 </div>
 </div>
@@ -482,13 +469,11 @@ Note
 </div>
 </div>
 </div>
-<p><em>Use this <a href="../Templates/ds250_project_template.qmd">template</a> to submit your Client Report. The template has two sections:</em></p>
+<p><em>Use this <a href="../Templates/P0_template.qmd">P0_template</a> to submit your Client Report.</em></p>
 <ol type="1">
-<li><em>A short elevator pitch that highlights key values or metrics from the results. Describing these key insights to interest or hook the reader to want to read more about your work. The writing style should be more technical with some creative elements. Do not summarize what you did.</em><br>
+<li><em>The template should include answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables.</em><br>
 </li>
-<li><em>Answers to the questions | tasks. Each should include a written description of your results, code cells with comments, charts and/or tables.</em><br>
-</li>
-<li><em>A short <strong>summary of work must</strong> be submitted in the comments in Canvas wwhen you submit the URL. Rate your own work on a scale of 1-5. 1 being poor and 5 being excellent. Include a short description of why you rated your work the way you did.</em></li>
+<li><em>Write short <strong>summary of work must</strong> be submitted in the comments in Canvas wwhen you submit the URL. Rate your own work on a scale of 1-5 (See the Rubric for Details) Include a short description of why you rated your work the way you did.</em></li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
@@ -502,7 +487,7 @@ Note
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p><em>Your report should be written in quarto markdown files and pushed to GitHub. Submit a URL of the rendered project in Canvas. (Do not submit the URL to the GitHub <code>.qmd</code> file)</em></p>
+<p><em>Your report should be written in quarto markdown files and rendered to an HTML File. Upload the HTML file in Canvas. (Do not submit the <code>.qmd</code> file)</em></p>
 </div>
 </div>
 </div>
@@ -521,7 +506,7 @@ Note
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>You will recieve feedback and/or coaching notes in the form of a GitHub issue. You will need to address the feedback, re-render and resubmit the project, and mark the GitHub issue as closed.</p>
+<p>If you submit before the due date, you will recieve feedback and/or coaching notes. You will need to address the feedback, re-render and resubmit the project.</p>
 </div>
 </div>
 </div>
@@ -540,7 +525,7 @@ Note
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>You will have <strong>one</strong> opportunity to resubmit the project after you have received feedback. The window for the resubmission will be open through the <strong>Wednesday</strong> following the due date of the project. Therefore it is recomended that you turn in a draft of the project early on the <strong>Thursday</strong> before the due date to ensure you have time to address any feedback and resubmit the project. It is acceptable to turn in a draft that is only 80% complete. This will allow you to get feedback on the majority of the project and then focus on the final details. The closer to that Thursday you turn in the draft the more feedback and coaching you will recieve.</p>
+<p><em>If you submit before the due date</em>, you will have <strong>one</strong> opportunity to resubmit the project after you have received feedback. The window for the resubmission will be open through the <strong>Wednesday</strong> following the due date of the project.</p>
 </div>
 </div>
 </div>
