@@ -24,7 +24,7 @@ __URL:__ [penguins data](https://aeturrell.github.io/python4DS/data-visualise.ht
 
 ### Readings
 
-Please do the assigned **before coming to class**!!
+Please do the assigned **before coming to class**!
 
 Many people different levels of experience with Python, VS Code, and programming in general. That is why there are so many and why skimming may be a good strategy for some students, but not for others. 
 
