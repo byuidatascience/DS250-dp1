@@ -60,7 +60,7 @@ website:
           file: projects.qmd
         - text: "---"
         - text: "Project 0: Introduction"
-          file: Projects/project_0.qmd
+          file: Projects/project_0_dp.qmd
         - text: "---"
         - text: "Project 1: What's in a Name?"
           file: Projects/project_1.qmd
