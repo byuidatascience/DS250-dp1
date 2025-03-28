@@ -18,6 +18,8 @@ keywords: [""]
 
 ### Background
 
+Trying again!!
+
 ::: {.callout-note collapse="false"}
 
 We will complete six projects during the semester that each take about two weeks (four days of class).  On average, a student will spend 2 hours outside of class per hour in class to complete the assigned readings, submit any Canvas items, and complete the project **(for a total of 8 hours per project)**. The instruction for each project will be structured into sections as written on this page. 
